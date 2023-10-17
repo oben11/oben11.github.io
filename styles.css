@@ -27,8 +27,8 @@ header {
     width: 200px;
     height: 200px;
     margin: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #404040;
+    border: 1px solid #000000;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
