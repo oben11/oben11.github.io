@@ -7,6 +7,12 @@ body {
     text-align: center; 
     color: #54ffeb;
 
+    }
+    h2 {
+        text-align: center; 
+        color:wheat;
+    }
+
     .assign {
         display: flex;
         padding: 10px;
@@ -14,15 +20,10 @@ body {
         }
         .assign img {
         width: 200px;
-        padding: 10px; }
-}
-    h2 {
-        text-align: center; 
-        color:wheat;
-
-
-
+        padding: 10px; 
     }
+    
+ 
 
 
 
@@ -39,7 +40,7 @@ header {
     margin: 20px;
     background-color: #404040;
     border: 1px solid #000000;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
     display: flex;
     justify-content: center;
     align-items: center;
