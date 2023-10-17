@@ -13,9 +13,9 @@ body {
     padding:10px;
     margin:10px;
     margin-bottom: 30px;
-    background:#e9edc9;
+    background:#abb463;
     border-radius:5px;
-    box-shadow: 5px 8px #ccd5ae;
+    box-shadow: 5px 8px #343f0f;
 }
 
 .assignment img {
@@ -38,5 +38,5 @@ a {
 }
 
 .assignment a:hover {
-    color:#ff00ea;
+    color:#f7c8a4;
 }
