@@ -1,7 +1,9 @@
 body {
     background: [pick a color];
     font-family: Arial, Helvetica, sans-serif;
-    } h1 {
+    } 
+    
+    h1 {
     text-align: center; 
     color: #54ffeb;
 
@@ -13,8 +15,16 @@ body {
         .assign img {
         width: 200px;
         padding: 10px; }
-
 }
+    h2 {
+        text-align: center; 
+        color:wheat;
+
+
+
+    }
+
+
 
 header {
     background-color: #333;
