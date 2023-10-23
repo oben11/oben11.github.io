@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 body {
-    background:#0F0F0F;
+    background:#f9f3e9;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -15,14 +15,14 @@ body {
     padding:10px;
     margin:10px;
     margin-bottom: 30px;
-    background:#3a4a67;
+    background:#669067;
     border-radius:5px;
-    box-shadow: 5px 8px #005B41;
+    box-shadow: 5px 8px #2c3529;
 }
 
 .assignment img {
     width:200px;
-    border: 2px solid #008170;
+    border: 2px solid #f9f3e9;
     margin-right:20px;
     border-radius:5px;
     display:block;
@@ -30,7 +30,8 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: #669067;
+    stroke:black;
     text-align:center;
     font-family: 'Lilita One', sans-serif;
 }
