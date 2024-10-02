@@ -29,8 +29,8 @@ body {
   }
 
   .showcase {
-    height: 10%;
-    width: 10%;
+    height: 100px;
+    width: 100px;
     background-color: black;
     border-radius: 30%;
   }
