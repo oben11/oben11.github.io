@@ -4,8 +4,10 @@ body {
 
   .ml6 {
     position: relative;
+    text-align: center;
+    vertical-align: middle;
     font-weight: 900;
-    font-size: 3.3em;
+    font-size: 50em;
   }
   
   .ml6 .text-wrapper {
