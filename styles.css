@@ -4,7 +4,8 @@ body {
 }
 
   .ml6 {
-    position: relative;
+    position: static;
+    left: 50%;
     font-weight: 900;
     font-size: 3.3em;
   }
