@@ -1,9 +1,10 @@
 
 .caption {
-  position: static;
+  position: absolute;
   left: 50%;
+  top: -22px;
+  user-select: none;
   text-align: center;
-  
   font-weight: 900;
   font-size: 1em;
 }
@@ -12,9 +13,9 @@
     position: static;
     left: 50%;
     text-align: center;
-    
     font-weight: 900;
     font-size: 3.3em;
+    user-select: none;
   }
   
   .ml6 .text-wrapper {
