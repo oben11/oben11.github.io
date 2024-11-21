@@ -1,50 +1,49 @@
-
-.caption {
+.caption, 
+.ml6 {
   position: static;
   left: 50%;
   text-align: center;
-  
   font-weight: 900;
+}
+
+.caption {
   font-size: 1em;
 }
 
-  .ml6 {
-    position: static;
-    left: 50%;
-    text-align: center;
-    
-    font-weight: 900;
-    font-size: 3.3em;
-  }
-  
-  .ml6 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
+.ml6 {
+  font-size: 3.3em;
+}
 
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  .ml6 .letter {
-    display: inline-block;
-    margin-bottom: 0;
-    line-height: 1em;
-    font-family: "Modak", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 250px;
-    color: rgb(38, 38, 38);
-  }
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.05em 0.1em 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
 
+.ml6 .letter {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 1em;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 250px;
+  color: rgb(38, 38, 38);
+}
 
-  *,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background: #eee;
+}
+
+html {
+  font-size: 15px;
 }
 
 .main {
@@ -54,7 +53,7 @@
 
 .cards {
   display: grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   list-style: none;
   margin: 0;
   padding: 0;
@@ -63,40 +62,36 @@
 .cards_item {
   display: flex;
   padding: 1rem;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
 }
 
 .card_image {
-  height: calc(13*1.2rem);
+  height: calc(13 * 1.2rem);
   padding: 1.2rem 1.2rem 0;
-  position:relative;
+  position: relative;
 }
+
 .card_image:before,
-.card_image:after{
+.card_image:after {
   content: "";
   position: absolute;
   width: 20px;
-  left: 60%;
-  top: 0;
   height: 45px;
   background: #e6e6e6b8;
   transform: rotate(45deg);
 }
-.card_image:after{
+
+.card_image:after {
   transform: rotate(-45deg);
-  top:auto;
-  bottom:-22px;
-  left:40%;
+  bottom: -22px;
+  left: 40%;
 }
+
 .card_image img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-.cards_item {
-  filter:drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
-}
-
 
 .card {
   background-color: white;
@@ -105,29 +100,28 @@
   flex-direction: column;
   overflow: hidden;
   padding-left: 30px;
-  background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px),#66afe1 0 1.2rem) right bottom /100% 100%,linear-gradient(red 0 0) 30px 0/2px 100% #fff;
+  background: repeating-linear-gradient(
+      #0000 0 calc(1.2rem - 1px),
+      #66afe1 0 1.2rem
+    ) right bottom / 100% 100%,
+    linear-gradient(red 0 0) 30px 0 / 2px 100% #fff;
   background-repeat: no-repeat;
   line-height: 1.2rem;
-  -webkit-mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
+  -webkit-mask: radial-gradient(circle 0.8rem at 2px 50%, #0000 98%, #000) 0 0 /
+    100% 2.4rem;
 }
 
 .card_content {
   padding: 1.2rem;
 }
 
-h2.card_title,p {
+h2.card_title, 
+p {
   margin: 1.2rem 0;
 }
-h2.card_title {
-    font-size: 1.3em;
-}
-body {
-  font-family:monospace;
-  background:#eee;
-}
 
-html {
-  font-size:15px;
+h2.card_title {
+  font-size: 1.3em;
 }
 
 .sticky-note {
@@ -139,7 +133,6 @@ html {
   border: 1px solid #e0c464;
   transform: rotate(-2deg);
   padding: 10px;
-  box-sizing: border-box;
 }
 
 .sticky-note p {
@@ -154,7 +147,6 @@ html {
   height: 20px;
   background: #ddd;
   opacity: 0.8;
-  transform: rotate(-5deg);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
