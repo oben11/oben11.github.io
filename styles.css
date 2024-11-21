@@ -131,7 +131,7 @@ html {
 }
 
 .sticky-note {
-  position: relative;
+  position: absolute;
   width: 200px;
   height: 200px;
   background: #fffa7a;
