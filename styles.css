@@ -136,6 +136,20 @@ h2.card_title {
   padding: 10px;
 }
 
+.sticky-note-about {
+  bottom:10%;
+  left: 20%;
+}
+.sticky-note-contact {
+  bottom: 80%;
+  left: 80%;
+}
+
+.sticky-note-skills {
+  bottom:30%;
+  left: 20%;
+}
+
 .sticky-note p {
   margin: 0;
   color: #333;
