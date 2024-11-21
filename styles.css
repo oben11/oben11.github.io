@@ -125,6 +125,16 @@ h2.card_title {
   font-size: 1.3em;
 }
 
+.sticky-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 .sticky-note {
   position: relative;
   width: 200px;
@@ -137,13 +147,17 @@ h2.card_title {
 }
 
 .sticky-note.about {
+  transform: rotate(4deg);
 
 }
 .sticky-note.contact {
+  transform: rotate(-5deg);
 
 }
 
 .sticky-note.skills {
+  transform: rotate(3deg);
+
 
 }
 
