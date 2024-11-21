@@ -126,7 +126,7 @@ h2.card_title {
 }
 
 .sticky-note {
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 200px;
   background: #fffa7a;
