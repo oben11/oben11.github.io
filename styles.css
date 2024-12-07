@@ -157,8 +157,11 @@ h2.card_title {
 .sticky-note.skills {
   transform: rotate(3deg);
   background: #7eff88;
+}
 
-
+.sticky-note.mission {
+  transform: rotate(6deg);
+  background: #6ea2fb;
 }
 
 .sticky-note p {
