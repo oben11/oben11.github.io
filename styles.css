@@ -15,6 +15,7 @@
 .caption {
   font-size: 1em;
   position:relative;
+  justify-self: center;
 }
 
 .ml6 {
@@ -172,8 +173,12 @@ h2.card_title {
 }
 
 .sticky-img {
-  height: 80%;
-  width: 60%;
+  height: 65%;
+  width: 45%;
+  right:70%;
+  transform: rotate(5deg);
+
+  
 
 }
 
