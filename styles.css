@@ -5,12 +5,14 @@
   text-align: center;
   font-weight: 900;
   margin-bottom: 0%;
+  margin:0%
 }
 
 .title {
   justify-content: center;
   padding-bottom: 10%;
   line-height: 1;
+  margin:0%
 
 }
 
@@ -18,7 +20,8 @@
   font-size: 1em;
   position:relative;
   justify-self: center;
-  
+  line-height: 1;
+  margin:0%
 }
 
 .ml6 {
