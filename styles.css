@@ -182,8 +182,8 @@ h2.card_title {
 .sticky-img {
   height: 65%;
   width: 45%;
-  right:70%;
-  transform: rotate(5deg);
+  left:70%;
+  transform: rotate(-15deg);
 
   
 
