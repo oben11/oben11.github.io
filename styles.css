@@ -54,9 +54,7 @@
 
 body {
   font-family: monospace;
-  background: #eee;
-  background-image: url("background.png");
-
+  background-image: url("media/background.png");
 }
 
 html {
