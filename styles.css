@@ -20,6 +20,7 @@
 a {
   text-decoration: none;
   color:#000;
+  font-weight: bold;
 }
 
 
@@ -187,13 +188,10 @@ h2.card_title {
 }
 
 .sticky-img {
-  height: 65%;
+  height: 55%;
   width: 45%;
-  left:70px;
+  left:90px;
   transform: rotate(-15deg);
-
-  
-
 }
 
 .sticky-note p {
