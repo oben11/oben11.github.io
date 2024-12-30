@@ -17,6 +17,12 @@
 
 }
 
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+
 .caption {
   font-size: 1em;
   position:relative;
@@ -147,6 +153,7 @@ h2.card_title {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 10%;
 }
 
 .sticky-note {
