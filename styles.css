@@ -42,6 +42,7 @@ a {
   overflow: hidden;
   vertical-align: middle;
 
+  line-height: 0.7;
   margin-bottom: 0%;
   margin:0%
 }
@@ -56,6 +57,7 @@ a {
   font-size: 250px;
   color: rgb(38, 38, 38);
 
+  line-height: 0.7;
   margin-bottom: 0%;
   margin:0%
 }
