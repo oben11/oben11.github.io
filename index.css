@@ -1,0 +1,92 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  /* box shadow so the holes look good*/
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(#b4d0e7 1.5px, transparent 1.5px);
+  /* blue line spacing */
+  background-size: 100% 32px;
+  line-height: 32px;
+
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* red line */
+.notebook-paper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: 2px;
+  height: 100%;
+  background-color: #ffb3b3;
+  z-index: 1;
+}
+
+.content {
+  padding-left: 90px; /* left margin */
+  padding-right: 40px;
+  position: relative;
+  z-index: 2; /* content above lines */
+  font-size: 32px;
+  color: rgb(54, 61, 67);
+}
+
+
+p {
+  margin: 0 0 32px 0; /* Keeps paragraphs aligned with the grid */
+  word-wrap: break-word;
+  font-size: 32px;
+}
+
+/* Add a "Three-Hole Punch" effect for realism */
+.holes {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px 0;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.hole {
+  width: 25px;
+  height: 25px;
+  background-color: #d1d5db;
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#assignment-list {
+  margin: 0 0 32px 0;
+}
+#assignment-list li {
+  list-style: none;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: rgb(54, 61, 67);
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+
