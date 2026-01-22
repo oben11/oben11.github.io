@@ -1,0 +1,83 @@
+/* Main Structure */
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+
+#main-header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 161, 20);
+    margin:auto;
+}
+
+
+
+#main-nav ul {
+    padding-left: 0;
+
+
+}
+
+#main-nav li{
+    list-style-type: none;
+    background-color: rgb(150, 81, 81);
+    padding:5px;
+    border-bottom: 2px solid rgb(255, 204, 0);
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    width: 100%;
+}
+
+/* Typography */
+#main-header h1 {
+    text-align: center;
+    padding-top:10px;
+}
+#main-footer {
+
+}
+
+#gallery section {
+    background:lightgray;
+    padding:5px;
+    border-radius: 5px;
+    margin:5px;
+}
+
+/* Larger Devices */
+@media (min-width: 768px) {
+    .columns {
+        display: flex;
+    }
+
+
+    .one {
+        flex:1;
+    }
+    .two {
+        flex:2;
+    }
+    .three {
+        flex:3;
+    }
+    .four {
+        flex:4;
+    }
+    #main-nav ul{
+        display:flex;
+    }
+    #main-nav a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+    }
+    #main-nav a:hover {
+        border-bottom: 1px solid blue;
+    }
+}
