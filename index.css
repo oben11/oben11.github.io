@@ -1,10 +1,9 @@
 body {
   background-color: #ffffff;
   margin: 0;
-  display: flex;
   min-height: 100vh;
   position: relative;
-  /* box shadow so the holes look good*/
+  /* box shadow so the holes look good */
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
   background-image: linear-gradient(#b4d0e7 1.5px, transparent 1.5px);
   /* blue line spacing */
@@ -37,11 +36,13 @@ body {
   color: rgb(54, 61, 67);
 }
 
-
 p {
   margin: 0 0 32px 0; /* Keeps paragraphs aligned with the grid */
   word-wrap: break-word;
   font-size: 32px;
+}
+a {
+padding: 0;
 }
 
 /* Add a "Three-Hole Punch" effect for realism */
@@ -66,16 +67,15 @@ p {
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
-
-#assignment-list {
-  margin: 0 0 32px 0;
-}
-#assignment-list li {
-  list-style: none;
+#assignments {
+  margin: -5px 0 32px 0;
   line-height: 32px;
-  display: flex;
+
+}
+#assignment {
+  line-height: 32px;
   align-items: center;
+
 }
 .icon {
   width: 1em;
@@ -90,3 +90,60 @@ a {
   padding-left: 0.5em;
 }
 
+.preview {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  left: 20px;
+}
+
+.preview img {
+  width: 200px;
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+}
+
+/* tape (top) */
+.tape {
+  position: absolute;
+  height: 15px;
+  width: 30px;
+  background-color: #c2c2c2ae;
+  left: -5%;
+  top: 0;
+  transform: rotate(-35deg);
+}
+
+.tape.bottom {
+  top: 90%;
+  left: 90%;
+}
+
+/* responsive layout */
+@media (min-width: 756px) {
+  #assignments {
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+  }
+.assignment {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 25%;
+}
+.Description {
+  text-align: left;
+  justify-self: left;
+}
+.preview {
+  top:0;
+}
+.preview img {
+  width: 100%;
+}
+
+}
