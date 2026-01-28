@@ -1,0 +1,123 @@
+.one {
+  flex: 1;
+}
+.two {
+  flex: 2;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex-direction: column;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.bar {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.floatLeft {
+  float:left;
+
+}
+.floatRight {
+  float:right;
+}
+
+.goRight {
+  margin-left: auto;
+}
+
+.flexEnd {
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+.black {
+  background-color: black;
+}
+
+.dropShadow {
+  box-shadow: 0 4px 8px rgb(50, 50, 50);
+}
+
+
+.white {
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+
+
+.main-header-tools li {
+  list-style: none;
+  margin-left: 0;
+  border-right: white 1px solid;
+  padding: 10px;
+  text-align: center;
+  height: 0.5em;
+  justify-content: center;
+  vertical-align: center;
+
+}
+.main-nav li {
+  font-size: 1.5em;
+  list-style: none;
+  padding: 20px;
+}
+
+.content-card {
+  height:500px;
+  margin-top:500px;
+}
+
+.sub-content-card {
+  position: relative;
+  left:100px;
+  top:-260px;
+  width: 700px;
+  height: 300px;
+}
+.sub-content-card div {
+  margin: 50px;
+}
+
+h4 {
+  font-size: 3em;
+  margin: 0;
+}
+h3 {
+  font-size: 6em;
+  margin: 0;
+}
+
+.sub-content-card.goRight {
+  left:auto;
+  right: 100px;
+}
+.garnett {
+  color:white;
+  background-color:#75000A;
+}
+
+
+
+
+body {
+  color:white;
+  background-color: rgb(170, 170, 170);
+
+}
