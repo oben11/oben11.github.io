@@ -9,9 +9,8 @@
       display: flex;
       flex-wrap: wrap;
     }
-    .neverFlex {
-      display: flex;
-      flex-wrap: wrap;
+    .block {
+      display: block;
     }
 
     .column {
