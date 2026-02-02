@@ -70,12 +70,17 @@ padding: 0;
 #assignments {
   margin: -5px 0 32px 0;
   line-height: 32px;
+  align-items: center;
+  flex-wrap: wrap;
 
 }
 #assignment {
   line-height: 32px;
   align-items: center;
+}
 
+.Description p {
+  text-align: center;
 }
 .icon {
   width: 1em;

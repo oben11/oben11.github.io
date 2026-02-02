@@ -9,6 +9,10 @@
       display: flex;
       flex-wrap: wrap;
     }
+    .neverFlex {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
     .column {
       flex-direction: column;
@@ -59,7 +63,7 @@
 
     /* Bar / container */
     .bar {
-      width: 100%;
+      width: 100vw;
       margin: 0;
       padding: 0;
     }
@@ -69,12 +73,23 @@
       margin: 0;
       padding: 0;
       min-height: 100px;
+      position: relative;
+ 
     }
 
     .container {
-      max-width: 1200px;
       margin: 0 auto;
+      display: flex;
     }
+    .main-container{
+      display: flex;
+      margin-top:800px;
+      flex-direction: column;
+      align-items: center;
+      gap: 800px;
+    }
+
+ 
 
     /* Spacing */
     .pad {
@@ -100,6 +115,7 @@
     }
 
     .white-bg {
+      background-image: none;
       background-color: rgb(255, 255, 255);
       color: rgb(0, 0, 0);
     }
@@ -209,51 +225,38 @@
     
     /* === Hero Section === */
     .hero {
-        background-color: rgba(255, 255, 255, 0.95);
-        padding: 40px;
-        margin-top: 50px;
-        text-align: center;
-        border-radius: 4px;
-    }
-    .hero h2 {
-        color: #75000A;
-        font-size: 2em;
-    }
-    .hero p {
-        font-size: 1.2em;
-        line-height: 1.5;
-        color: #333;
+      display: block;
+      text-align: left;
+      padding: 40px 16rem;
+      font-size: 1.5em;
+      line-height: 1.5;
+      font-weight: bold;
+      line-height: 1.5;
+      color: #000000;
     }
 
+
     /* === Content Cards === */
-    /* Main wrapper for large image sections */
     .content-card {
       /* Replaced fixed height with min-height for responsiveness */
       min-height: 500px; 
       /* Reduced the large top margin to bring sections closer */
-      margin: 50px 0;
       position: relative;
       background-size: cover;
       background-position: center;
-    }
-    
-    /* Background images for specific sections */
-    .card-education {
-        background-image: url('https://dummyimage.com/1200x800/e8b7b7/ffffff.png');
-    }
-    
-    .card-research {
-        background-image: url('https://dummyimage.com/1200x800/e8b7b7/ffffff.png');
-    }
-    
-    .card-centers {
-        background-image: url('https://dummyimage.com/1200x800/e8b7b7/ffffff.png');
-    }
+      background-image: url('https://dummyimage.com/1200x800/e8b7b7/ffffff.png');
 
-    /* The offset content box logic */
+    }
+    .content-card.white-bg{
+      background-image: none;
+      background-color: white;
+
+    }
+ 
+
     .sub-content-card {
       position: absolute;
-      bottom: -50px; /* Adjusting overlapping */
+      top: -215px;
       left: 100px;
       width: 600px;
       max-width: 90%;
@@ -277,6 +280,7 @@
         margin-top: 10px;
         font-weight: bold;
         text-transform: uppercase;
+        background-color: #000000;
     }
     
     .sub-content-card a.btn-link:hover {

@@ -16,10 +16,9 @@
     <!-- HEADER -->
     <header class="main-header">
       <div class="bar black-bg">
-        <div class="container">
-            <!-- Utility Nav -->
+        <div class="container flex">
+            <!-- Top Nav -->
             <nav class="nav flex one">
-              <!-- Removed flexEnd and goRight for left alignment -->
               <ul class="flex" style="margin:0; padding:0;">
                 <li><a href="./">Calendar</a></li>
                 <li><a href="./">Map</a></li>
@@ -42,7 +41,7 @@
         </div>
       </div>
 
-      <!-- Primary Navigation -->
+      <!-- Primary Nav -->
       <nav class="dropdown bar flex garnett-bg">
         <div class="container" style="width: 100%;">
             <ul class="dropdown bar flex flexEnd pad-sides" style="margin:0;">
@@ -56,18 +55,23 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main id="main-content" class="main-content">
+    <main>
       <div class="container">
-
-        <!-- Hero / Intro -->
-        <section class="hero bar dropShadow">
+        <!-- Hero -->
+      <section>
+        <article class="content-card flex bar">
+        </article>
+        <section class="white-bg hero dropShadow ">
           <p>Our school is looking toward the future with the goal of supporting the health needs of South Carolina and beyond through exemplary biomedical education, transformative research and compassionate care for all.</p>
         </section>
-
+      </section>
       </div>
+    </div>
 
+      <div class="main-container">
       <!-- Feature Section 1: Education (Image + Overlapping Card Right) -->
-      <article class="content-card card-education flex bar dropShadow">
+      <section>
+      <article class="content-card flex bar dropShadow">
         <section class="sub-content-card flex garnett-bg column dropShadow goRight">
           <div>
             <h4>Education</h4>
@@ -76,7 +80,6 @@
           </div>
         </section>
       </article>
-
       <!-- Quote Section -->
       <div class="white-bg pad" style="text-align: center; padding: 80px 20px;">
           <div class="container">
@@ -84,9 +87,11 @@
             <p style="font-weight: bold; margin-top: 20px;">- Sarah Hall Kiriluk, MD, Class of 2025</p>
           </div>
       </div>
+      </section>
 
+      
       <!-- Feature Section 2: Research (Image + Overlapping Card Left) -->
-      <article class="content-card card-research flex bar dropShadow">
+      <article class="content-card white-bg bar dropShadow">
         <section class="sub-content-card flex garnett-bg column dropShadow">
           <div>
             <h4>Research</h4>
@@ -94,10 +99,7 @@
             <a href="./" class="btn-link">Explore Your Opportunities</a>
           </div>
         </section>
-      </article>
-
-      <!-- Card Grid Section -->
-      <section class="content-grid">
+              <section class="content-grid">
           <!-- Grid Card 1 -->
           <article class="grid-card dropShadow">
             <div class="grid-card-img" style="background-image: url('https://dummyimage.com/600x400/e8b7b7/ffffff.png');"></div>
@@ -128,9 +130,10 @@
             </div>
           </article>
       </section>
+      </article>
 
       <!-- Feature Section 3: Centers (Image + Overlapping Card Left) -->
-      <article class="content-card card-centers flex bar dropShadow">
+      <article class="flex bar-small white-bg">
         <section class="sub-content-card flex garnett-bg column dropShadow">
           <div>
             <h4>Centers and Institutes</h4>
@@ -139,10 +142,11 @@
           </div>
         </section>
       </article>
+      </div>
 
       <!-- CTA Section -->
-      <div class="footer-cta white-bg">
-          <div class="container">
+      <div class="footer-cta grey-bg">
+          <div class="">
               <h2>Stay Connected</h2>
               <p>Discover more ways to get involved with our school</p>
               <div class="footer-cta-buttons">
