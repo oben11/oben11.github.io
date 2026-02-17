@@ -7,7 +7,7 @@ let right = element.getBoundingClientRect().right;
 let bottom = element.getBoundingClientRect().bottom;
 
 console.log(right-left);
-while(true) {
+for(i=0; i=-1; i++) {
     spawnBubble();
     await new Promise(resolve => setTimeout(resolve, 300));
 }
