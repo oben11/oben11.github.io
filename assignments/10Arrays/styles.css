@@ -31,68 +31,15 @@ header {
     background-color: wheat;
 }
 
-#content section.hidden {
+.hidden {
     display: none;
 }
-
-
-#nav-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-#nav-list li {
-    float: left;
-    cursor: pointer;
+#links {
+    list-style: none;
 
 }
-
-#nav-list>*:not(:last-child)::after {
-    content: " |";
-    margin-right: 5px;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-
-
-
 
 @media only screen and (max-width: 768px) {
-    #nav-list {
-        margin-top: 0;
-        list-style-type: none;
-    }
 
-    #nav-list li {
-        float: none;
-    }
-
-    #nav-list>*:not(:last-child)::after {
-        content: "";
-    }
-
-    #nav-toggle {
-        display: block;
-        margin: 0;
-        width: max-content;
-        user-select: none;
-        margin-right: 70px;
-        margin-bottom: 0px;
-
-        transform: rotate(90deg);
-
-    }
-
-    #nav-toggle.true {
-        transform: rotate(0deg);
-
-    }
-
-    #nav-list.true {
-        display: none;
-    }
 
 }

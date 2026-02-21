@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const links = document.getElementById("links");
   const videoFrame = document.getElementById("frame");
 
-  function renderLinks(chosenGenre) {
+  function populateLinks(chosenGenre) {
     links.replaceChildren(); // destroy prev links
 
     const genre = Genres[chosenGenre] ?? []; // associative array
@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       a.addEventListener("click", (ev) => {
         ev.preventDefault();
         videoFrame.src = song.url;
+        videoFrame.classList.remove("hidden");
       });
 
       li.appendChild(a);
@@ -81,11 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Initialize: render the default selection (match option values)
-  renderLinks(selection.value.toLowerCase());
 
   // Update when user changes selection
   selection.addEventListener("change", () => {
-    renderLinks(selection.value.toLowerCase());
+    populateLinks(selection.value.toLowerCase());
   });
 });
