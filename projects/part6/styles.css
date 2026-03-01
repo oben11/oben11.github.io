@@ -1339,6 +1339,15 @@ footer {
   transition: opacity 180ms ease, transform 180ms ease;
 }
 
+.hamburger {
+        all:unset;
+        cursor: pointer; 
+        color: var(--cream);
+        font-size: 1.5rem;
+        display: none;
+
+}
+
 /* ===================================
    RESPONSIVE DESIGN
    =================================== */
@@ -1381,6 +1390,10 @@ footer {
     nav ul {
         flex-direction: column;
         gap: 1.5rem;
+        display: none;
+    }
+    .hamburger {
+        display: block;
     }
 
     
