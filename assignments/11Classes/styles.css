@@ -55,6 +55,6 @@ body {
 .row {
     display: flex;
     flex-direction: row-reverse;
-    gap:50px
+    gap:50px;
 }
 

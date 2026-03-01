@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Ollie's Coffee Company</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<script src="filters.js"></script>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Ollie's</a>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="rewards.html">Rewards</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="merchandise.html">Merchandise</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Our Menu</h1>
+            <p>Handcrafted beverages made with premium ingredients</p>
+        </div>
+    </section>
+
+    <section class="filter-section">
+        <div class="filter-container">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Hot Coffee</button>
+            <button class="filter-btn">Espresso</button>
+            <button class="filter-btn">Cold Beverages</button>
+            <button class="filter-btn">Tea & Other</button>
+        </div>
+    </section>
+
+    <section class="menu">
+        <div class="menu-grid">
+            <!-- Item 1 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Hot Coffee</span>
+                    <h3>House Blend Coffee</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Our signature medium roast with notes of chocolate and caramel</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(5 cal)</span>
+                                <span class="price">$2.99</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(5 cal)</span>
+                                <span class="price">$3.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(10 cal)</span>
+                                <span class="price">$3.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Espresso</span>
+                    <h3>Caramel Latte</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Espresso with steamed milk and rich caramel syrup</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(250 cal)</span>
+                                <span class="price">$4.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(320 cal)</span>
+                                <span class="price">$4.99</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(400 cal)</span>
+                                <span class="price">$5.49</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Espresso</span>
+                    <h3>Cappuccino</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Classic espresso with velvety foam</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(120 cal)</span>
+                                <span class="price">$3.99</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(150 cal)</span>
+                                <span class="price">$4.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(180 cal)</span>
+                                <span class="price">$4.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Cold Beverages</span>
+                    <h3>Iced Mocha</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Espresso, milk, chocolate, and ice</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(280 cal)</span>
+                                <span class="price">$4.79</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(350 cal)</span>
+                                <span class="price">$5.29</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(420 cal)</span>
+                                <span class="price">$5.79</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Cold Beverages</span>
+                    <h3>Cold Brew</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Smooth, slow-steeped cold brew coffee</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(5 cal)</span>
+                                <span class="price">$3.99</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(5 cal)</span>
+                                <span class="price">$4.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(10 cal)</span>
+                                <span class="price">$4.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Tea & Other</span>
+                    <h3>Matcha Latte</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Premium matcha with steamed milk</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(190 cal)</span>
+                                <span class="price">$4.99</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(240 cal)</span>
+                                <span class="price">$5.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(290 cal)</span>
+                                <span class="price">$5.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Tea & Other</span>
+                    <h3>Chai Tea Latte</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Spiced chai with steamed milk</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Small</span>
+                            <div class="size-info">
+                                <span class="calories">(200 cal)</span>
+                                <span class="price">$4.29</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Medium</span>
+                            <div class="size-info">
+                                <span class="calories">(260 cal)</span>
+                                <span class="price">$4.79</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Large</span>
+                            <div class="size-info">
+                                <span class="calories">(310 cal)</span>
+                                <span class="price">$5.29</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="menu-item">
+                <div class="item-header">
+                    <span class="category-badge">Espresso</span>
+                    <h3>Espresso</h3>
+                </div>
+                <div class="item-body">
+                    <p class="item-description">Bold, concentrated coffee shot</p>
+                    <div class="sizes">
+                        <div class="size-option">
+                            <span class="size-name">Single</span>
+                            <div class="size-info">
+                                <span class="calories">(5 cal)</span>
+                                <span class="price">$2.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Double</span>
+                            <div class="size-info">
+                                <span class="calories">(10 cal)</span>
+                                <span class="price">$3.49</span>
+                            </div>
+                        </div>
+                        <div class="size-option">
+                            <span class="size-name">Triple</span>
+                            <div class="size-info">
+                                <span class="calories">(15 cal)</span>
+                                <span class="price">$4.49</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">Ollie's Coffee Company</div>
+                <div class="tagline">Brewing excellence since 1987. Every cup tells a story.</div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="rewards.html">Rewards Program</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <p>Follow us on social media</p>
+                <p>Email: hello@olliescoffee.com</p>
+                <p>Phone: (555) BREW-123</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ollie's Coffee Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
