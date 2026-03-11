@@ -965,6 +965,8 @@ h1 {
     overflow: hidden;
 }
 
+
+
 .product-image::before {
     content: '';
     position: absolute;

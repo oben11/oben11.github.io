@@ -6,12 +6,12 @@ DONE - For our Signature, let's not show the coffee cup on small resolutions, as
 
 
 
-??? - In the Menu let's make sure the tags like "hot chocolate" don't overlap the other words.
+NO ISSUE  (no such tag exists) - In the Menu let's make sure the tags like "hot chocolate" don't overlap the other words.
 
 
 
-On the small resolution, it's odd for the top part to be fixed, as you can barely see the rest of the page.
+DONE (top nav bar is shrunk for visiblity) - On the small resolution, it's odd for the top part to be fixed, as you can barely see the rest of the page.
 
 
 
-The menu shouldn't hide on large screens.
+NO ISSUE (The menu doesn't hide on large screens) - Menu shouldn't hide on large screens.
