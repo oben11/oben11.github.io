@@ -69,6 +69,35 @@ a {
   font-size: 32px;
 }
 
+p {
+  margin: 0 0 28px 0; /* Keeps paragraphs aligned with the grid */
+  padding-top: 4px;
+  word-wrap: break-word;
+  line-height: 32px;
+  font-size: 32px;
+}
+div.small {
+  margin: 0 0 14px 0; /* Keeps paragraphs aligned with the grid */
+  color: rgb(54, 61, 67);
+  text-decoration: none;
+  word-wrap: break-word;
+  height: 16px;
+  line-height: 16px;
+  font-size: 16px;
+}
+div.small, div.small a, div.small img{
+  margin: 0 0 14px 0; /* Keeps paragraphs aligned with the grid */
+  color: rgb(54, 61, 67);
+  text-decoration: none;
+  word-wrap: break-word;
+  height: 16px;
+  width: auto;
+  line-height: 16px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+
 /* Add a "Three-Hole Punch" effect for realism */
 .holes {
   position: absolute;
