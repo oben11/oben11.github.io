@@ -1,15 +1,12 @@
 {
-  "name": "my-react-router-app",
+  "name": "",
   "private": true,
   "type": "module",
-  "homepage": "https://oben11.github.io/",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc",
-    "predeploy": "npm run build",
-    "deploy": "ghpages -d dist"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/node": "^8",
